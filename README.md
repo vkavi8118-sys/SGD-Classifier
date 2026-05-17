@@ -49,7 +49,7 @@ model.fit(X_train, y_train)
 y_pred = model.predict(X_test)
 
 # Step 6: Evaluation
-print(" Accuracy:", accuracy_score(y_test, y_pred))
+print("✅Accuracy:", accuracy_score(y_test, y_pred))
 
 cm = confusion_matrix(y_test, y_pred)
 cm_df = pd.DataFrame(cm, 
